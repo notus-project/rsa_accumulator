@@ -22,9 +22,11 @@ func TrustedSetup() *Setup {
 	ret := &Setup{
 		N: &big.Int{},
 		G: &big.Int{},
+		H: &big.Int{},
 	}
 	ret.N.SetString(N2048String, 10)
 	ret.G.SetString(G2048String, 10)
+	ret.H.SetString(H2048String, 10)
 	return ret
 }
 

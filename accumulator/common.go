@@ -69,6 +69,7 @@ var (
 type Setup struct {
 	N *big.Int
 	G *big.Int //default generator in Z*_N
+	H *big.Int //default generator in Z*_N
 }
 
 // Element should be able to be accumulated into RSA accumulator
